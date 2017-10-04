@@ -1,0 +1,53 @@
+
+ //setting username and email
+====================================
+git config --global user.name "Mona Lisa"
+git config --global email.name "toton333@yahoo.com"
+
+
+//local repo
+====================================
+git init <project>
+git add <file or .>
+git commit -m "msg"
+git status -s
+git log --oneline
+git diff
+git diff --cached
+
+
+//connecting to github
+====================================
+https or ssh connection.
+ssh has better security. need ssh key match.
+
+
+	//create ssh key
+	step 1.ssh-keygen -t rsa -C "toton333@yahoo.com"
+	step 2. goto .ssh folder and copy public rsa key 
+	step 3. go to github setting>ssh and create/paste the key
+
+	//testing the connection
+	ssh -T git@github.com
+
+	//troubleshooting
+	if it says port 22 timed out(due to firewall), gotta change the port.
+	step 1. go to .ssh folder and create a config file
+	step 2. open it with notepad and add the following command:
+	        Host github.com
+	          Hostname ssh.github.com
+	          Port 443
+	step 3. save and exit
+	step 4. ssh -T git@github.com    //to test if it is working
+
+
+//remote repo
+====================================
+git remote add origin <ssh/https path>
+git push -u origin master
+git pull origin master
+
+
+
+
+
