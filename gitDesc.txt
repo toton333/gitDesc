@@ -1,11 +1,11 @@
 
- //setting username and email
+ //SETTING USERNAME AND EMAIL
 ====================================
 git config --global user.name "Mona Lisa"
 git config --global email.name "toton333@yahoo.com"
 
 
-//local repo
+//LOCAL REPO
 ====================================
 git init <project>
 git add <file or .>
@@ -16,7 +16,7 @@ git diff
 git diff --cached
 
 
-//connecting to github
+//CONNECTING TO GITHUB
 ====================================
 https or ssh connection.
 ssh has better security. need ssh key match.
@@ -40,14 +40,25 @@ ssh has better security. need ssh key match.
 	step 3. save and exit
 	step 4. ssh -T git@github.com    //to test if it is working
 
+	//switch https to ssh and vice versa
+	step 1. git remote -v    //list of remote repo
+	step 2. git remote set-url origin <ssh/https path>
 
-//remote repo
+
+//REMOTE REPO
 ====================================
 git remote add origin <ssh/https path>
 git push -u origin master
 git pull origin master
 
 
+//branching and merging
+====================================
+git branch
+git branch <branch name>
+git checkout <branch name>
+git merge <branch name>
+git clone <ssh/https path>
 
 
 
