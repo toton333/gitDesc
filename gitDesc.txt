@@ -61,4 +61,13 @@ git merge <branch name>
 git clone <ssh/https path>
 
 
+//tagging
+====================================
+git tag -a <annotation> -m "message"
+git tag
+git show <annotation>
+git push origin <annotation>  //pushing single tag
+git push origin --tag         //pushing all tags
+
+
 
