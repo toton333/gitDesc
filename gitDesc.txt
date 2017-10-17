@@ -77,3 +77,7 @@ git checkout <hash name>  //to create a temporary branch
 git reset <hash name> --hard //go back to previous commit
 git push -f origin master   //to force push to github back to previous commit
 
+
+//If initial commit already made and pull request commited which gonna get refused
+git merge origin/master --allow-unrelated-histories
+
