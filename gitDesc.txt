@@ -81,3 +81,13 @@ git push -f origin master   //to force push to github back to previous commit
 //If initial commit already made and pull request commited which gonna get refused
 git merge origin/master --allow-unrelated-histories
 
+//vim
+i - insert mode
+ESC - command mode
+:wq - to save and exit
+x   - to delete the unwanted character
+u   - to undo the last command
+U   - to undo the whole line
+A   - to append text at the end
+dw  - move the cursor to the beginning of the word to delete it
+0(zero) - to move to the start of the line
