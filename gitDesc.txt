@@ -76,6 +76,7 @@ git push origin --tag         //pushing all tags
 git checkout <hash name>  //to create a temporary branch
 git reset <hash name> --hard //go back to previous commit
 git push -f origin master   //to force push to github back to previous commit
+git reset HEAD^ --soft    //to undo unpushed commit
 
 
 //If initial commit already made and pull request commited which gonna get refused
