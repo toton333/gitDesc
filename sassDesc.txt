@@ -1,0 +1,4 @@
+1. Install ruby
+2. gem install sass (on ruby cmd to install sass)
+3. cd to root directory of the project.
+3. sass --watch pathtosassfolder:pathtocssfolder
