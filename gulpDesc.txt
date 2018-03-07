@@ -1,0 +1,15 @@
+1.install nodejs from nodejs.org
+
+//commands
+2.node -v or npm -v             (to check version)
+3.npm init                      (to create package.json)
+4.npm install --save-dev gulp   (to install gulp in dev dependency)
+5.npm install                   (if package.json file is available)
+6.npm install -g touch-cli      (if touch command is not available)
+7.touch gulpfile.js             (to create gulpfile.js)
+
+//how to use
+1.get/ask for package.json
+2.touch gulpfile.js     (create gulpfile.js)
+3.copy paste content from gulpfile to newly created gulpfile.js
+4.gulp <taskname>     or    gulp (if default is defined)      or gulp watch (if watch is defined) 
