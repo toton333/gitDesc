@@ -1,0 +1,4 @@
+1.Download composer
+2.composer init           (to create composer.json file , minimum stability is dev)
+3.composer install        (after modifying composer.json for autoload or for other things)
+4.composer dump-autoload  (to update autoload)
