@@ -78,6 +78,17 @@ git reset <hash name> --hard //go back to previous commit
 git push -f origin master   //to force push to github back to previous commit
 git reset HEAD^ --soft    //to undo unpushed commit
 
+//gitignore
+====================================
+1. git rm --cached <file/folder name>    //to remove it from git tracking
+2.Creat a .gitignorefile
+3.Add file/folder name in it
+4. git add .                            
+5. git commit -m "message"
+6. git push origin master
+
+
+
 
 //If initial commit already made and pull request commited which gonna get refused
 git merge origin/master --allow-unrelated-histories
