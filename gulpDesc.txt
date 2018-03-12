@@ -1,12 +1,16 @@
 1.install nodejs from nodejs.org
 
 //commands
-2.node -v or npm -v             (to check version)
-3.npm init                      (to create package.json)
-4.npm install --save-dev gulp   (to install gulp in dev dependency)
-5.npm install                   (if package.json file is available)
-6.npm install -g touch-cli      (if touch command is not available)
-7.touch gulpfile.js             (to create gulpfile.js)
+2.node -v or npm -v                      (to check version)
+3.npm init                               (to create package.json)
+4.npm install --save-dev gulp            (to install gulp in dev dependency)
+5.npm install --save-dev gulp-sass       (to install gulp sass)
+5.npm install                            (if package.json file is available)
+6.npm install -g touch-cli               (if touch command is not available)
+7.touch gulpfile.js                      (to create gulpfile.js)
+8.npm uninstall --save-dev <module name> (to uninstall a module)
+9.npm remove --save-dev <module name>    (to uninstall a module)
+10.npm rm --save-dev <module name>       (to uninstall a module)
 
 //how to use
 1.get/ask for package.json
