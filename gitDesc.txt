@@ -72,11 +72,20 @@ git push origin --tag         //pushing all tags
 
 //back to previous
 ====================================
+git checkout .              //will undo all changes
+git reset                 // to undo git add.
+git reset HEAD^ --soft    //to undo unpushed commit
 
 git checkout <hash name>  //to create a temporary branch
 git reset <hash name> --hard //go back to previous commit
 git push -f origin master   //to force push to github back to previous commit
-git reset HEAD^ --soft    //to undo unpushed commit
+
+//how to create current hash as master
+=======================================
+git checkout master           //first need to go back to current master
+git reset <hash name> --hard  //then set that has as master
+git push -f origin master   //to force push to github back to previous commit
+
 
 //gitignore
 ====================================
