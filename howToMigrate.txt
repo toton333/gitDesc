@@ -1,0 +1,13 @@
+download
+==============
+1. Create a zip file using all site file and download it local computer
+2. Export sql file.
+
+upload
+==============
+1. In new server in cpanel create a database, create a user, link that user with that database.
+   and remember that username and password of the database.
+
+2. Import sql file in the newly created database.
+3. Change site url and home url from wp-option.
+4. In wp-config.php change db name, username, passowrd, host .
