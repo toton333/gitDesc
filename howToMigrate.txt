@@ -1,3 +1,5 @@
+<Manualy>
+
 download
 ==============
 1. Create a zip file using all site file and download it local computer
@@ -11,3 +13,16 @@ upload
 2. Import sql file in the newly created database.
 3. Change site url and home url from wp-option.
 4. In wp-config.php change db name, username, passowrd, host .
+
+===================================================================================
+===================================================================================
+
+<Via plugin>(Wordpress site only)
+1.Install all-in-one wp migration plugin
+2.export
+3.Install wordpress in the new domain
+4.Install all-in-one wp migration plugin
+5.Import
+6.Save permalink twich if necessary
+
+
