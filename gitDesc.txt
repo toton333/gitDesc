@@ -73,6 +73,10 @@ git push origin --tag         //pushing all tags
 //back to previous
 ====================================
 git checkout .              //will undo all changes
+git clean -n               //shows files to be deleted
+git clean -f               //removes added files
+git clean -fd              //removes added files and directories
+git clean -fx              //removes ignored files
 git reset                 // to undo git add.
 git reset HEAD^ --soft    //to undo unpushed commit
 
