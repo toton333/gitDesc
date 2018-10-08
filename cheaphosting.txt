@@ -1,0 +1,14 @@
+//cloning wordpress site from remote server to localhost with cheap hosting
+//where upload/download filesize is 10mb or less(sigh!)
+
+1.Install wordpress in localhost
+2.Install all in one migration plugin in both remote and local wordpress.
+3.Install and activate all plugins in localhost.
+4.Export theme files only using all in one on remote. FTP works also cause of small size.
+5.Import theme files to local using all in one.
+6.FTP upload folder from remote to local(for media files)
+7.Finally Export/import sql from remote to local using all in one.
+
+
+//The main trick is gotta install all plugin manually to destination wordpress
+  to avoid large file download/upload.
